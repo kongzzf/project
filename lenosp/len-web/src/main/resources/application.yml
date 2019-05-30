@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: mysql-dev
+len-blog:
+  roles: blogAdmin
+#    可切换sqlserver
+#    active: sqlserver-dev
+server:
+  port: 8001
